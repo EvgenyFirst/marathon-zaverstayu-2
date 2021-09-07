@@ -1,0 +1,453 @@
+/* main settings start */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* font-family: 'Playfair Display', Arial, serif;
+font-family: 'Montserrat', Arial, sans-serif; */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+
+    padding: 0;
+
+    font-family: "Montserrat", Arial, sans-serif;
+    color: #000000;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: normal;
+
+    background-color: #e5e5e5;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+/* main settings end */
+/* ----- */
+/* menu-catalog start */
+.menu-catalog__options {
+    border-top: 1px solid #ae7c78;
+    border-bottom: 1px solid #ae7c78;
+}
+
+.menu-catalog__items {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    color: #ae7c78;
+}
+
+.menu-catalog__item-button {
+    border: black;
+
+    background-color: transparent;
+
+    padding-left: 0;
+}
+
+.menu-catalog__item-button:hover {
+    cursor: pointer;
+}
+
+.menu-catalog__header {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+    text-align: left;
+    color: #ae7c78;
+}
+
+.menu-catalog__header-special {
+    font-style: italic;
+}
+
+.menu-catalog__text {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: #ae7c78;
+}
+
+.menu-catalog__view-catalog-link {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+
+    background-color: #d89999;
+}
+
+.menu-catalog__img {
+    background-color: #ae7c78;
+}
+/* menu-catalog end */
+/* ----- */
+/* advantage start */
+.advantage__info-header {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    color: #ae7c78;
+}
+
+.advantage__info-text {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: left;
+    color: #ae7c78;
+}
+/* advantage end */
+/* ----- */
+/* top-bouquets start */
+.top-bouquets__popular-header {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ae7c78;
+}
+
+.top-bouquets__header-position {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: #ae7c78;
+}
+
+.top-bouquets__info-position {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 19px;
+    text-align: left;
+    color: #ae7c78;
+}
+
+.top-bouquets__dimensions-position {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 19px;
+    text-align: left;
+    color: #ae7c78;
+}
+
+.top-bouquets__price-position {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: left;
+    color: #ae7c78;
+}
+
+.top-bouquets__to-order-position {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+
+    background-color: #d89999;
+}
+/* top-bouquets end */
+/* ----- */
+/* catalog-bouquets start */
+.catalog-bouquets__link {
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    background: rgba(174, 124, 120, 0.6);
+}
+
+.catalog-bouquets__header {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.catalog-bouquets__description {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 19px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.catalog-bouquets__img {
+    background-color: #ae7c78;
+}
+/* catalog-bouquets end */
+/* ----- */
+/* advertising start */
+.advertising__container {
+    background-color: #ae7c78;
+}
+
+.advertising__header {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 59px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.advertising__info {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.advertising__img {
+    background-color: #ae7c78;
+}
+/* cadvertising end */
+/* ----- */
+/* ideal start */
+.ideal__header {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ae7c78;
+}
+
+.ideal__header-item {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ae7c78;
+}
+/* ideal end */
+/* ----- */
+/* news start */
+.news__header {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ae7c78;
+}
+
+.news__info {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #ae7c78;
+}
+
+.news__img {
+    background-color: #ae7c78;
+}
+/* news end */
+/* ----- */
+/* reviews start */
+.reviews {
+    border: 1px solid #ae7c78;
+
+    box-sizing: border-box;
+}
+
+.reviews__header {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ae7c78;
+}
+
+.reviews__text {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ae7c78;
+}
+
+.reviews__author {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #ae7c78;
+}
+/* reviews end */
+/* ----- */
+/* contacts start */
+.contacts {
+    display: inline-block;
+
+    position: relative;
+
+    width: 100%;
+    min-height: 644px;
+
+    background: url("../img/map.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacts__container {
+    position: absolute;
+
+    width: 386px;
+    height: 520px;
+
+    border-radius: 12px;
+
+    box-shadow: 0px 4px 40px rgba(217, 217, 217, 0.3);
+
+    background-color: #f7fafc;
+}
+
+.contacts__header {
+    font-family: "Playfair Display", "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #ae7c78;
+}
+
+.contacts__invitation {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ae7c78;
+}
+
+.contacts__coordinates {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ae7c78;
+}
+
+.contacts__work {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ae7c78;
+}
+
+.contacts__working-days {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ae7c78;
+}
+
+.contacts__call-us {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ae7c78;
+}
+
+.contacts__phone {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ae7c78;
+}
+
+.contacts__write-to-us {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ae7c78;
+}
+
+.contacts__mail {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #ae7c78;
+}
+/* contacts end */
+/* ----- */
+/* footer-navigation start */
+.footer-navigation {
+    background-color: #ae7c78;
+}
+
+.footer-navigation__link {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+/* footer-navigation end */
+/* ----- */
