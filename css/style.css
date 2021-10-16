@@ -98,6 +98,11 @@ main {
     left: 47.5%;
 }
 
+.menu-catalog__logo-block:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
 .menu-catalog__wrapper {
     position: relative;
 
@@ -157,6 +162,12 @@ main {
     text-align: center;
     text-decoration: none;
     color: #ae7c78;
+}
+
+.menu-catalog__items:hover {
+    color: #a86763;
+
+    transition: 0.3s;
 }
 
 .menu-catalog__item-button {
@@ -243,6 +254,12 @@ main {
     padding-left: 70px;
 
     border-radius: 40px;
+}
+
+.menu-catalog__view-catalog-link:hover {
+    background-color: #d17b7b;
+
+    transition: 0.3s;
 }
 
 .menu-catalog__img {
@@ -464,6 +481,12 @@ main {
 }
 
 .top-bouquets__to-order-position:hover {
+    background-color: #d17b7b;
+
+    transition: 0.3s;
+}
+
+.top-bouquets__to-order-position:hover {
     cursor: pointer;
 }
 
@@ -492,6 +515,11 @@ main {
     color: transparent;
 
     background-color: transparent;
+}
+
+.top-bouquets__button:hover {
+    opacity: 0.7;
+    transition: 0.3s;
 }
 
 .top-bouquets__button:hover {
@@ -553,6 +581,12 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.catalog-bouquets__link:hover {
+    background: rgba(167, 93, 87, 0.6);
+
+    transition: 0.3s;
 }
 
 .catalog-bouquets__header {
@@ -881,6 +915,12 @@ main {
     padding-right: 0;
 }
 
+.news__social-link:hover {
+    opacity: 0.8;
+
+    transition: 0.3s;
+}
+
 .news__container-right {
     width: 592px;
 
@@ -1066,6 +1106,7 @@ main {
     font-size: 16px;
     line-height: 20px;
     color: #ae7c78;
+    font-style: normal;
 }
 
 .contacts__operating-mode {
@@ -1112,6 +1153,12 @@ main {
     text-decoration: none;
 }
 
+.contacts__phone:hover {
+    color: #a86763;
+
+    transition: 0.3s;
+}
+
 .contacts__write-to-us {
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 400;
@@ -1129,6 +1176,12 @@ main {
     line-height: 20px;
     text-decoration: none;
     color: #ae7c78;
+}
+
+.contacts__mail:hover {
+    color: #a86763;
+
+    transition: 0.3s;
 }
 /* contacts end */
 /* ----- */
@@ -1172,6 +1225,12 @@ main {
     margin-right: 50px;
 }
 
+.footer-navigation__img-block:hover {
+    opacity: 0.7;
+
+    transition: 0.3s;
+}
+
 .footer-navigation__img {
     margin-top: -14px;
 }
@@ -1193,6 +1252,14 @@ main {
     align-items: center;
 }
 
+.footer-navigation__item:nth-child(4) {
+    margin-right: -11px;
+}
+
+.footer-navigation__item:last-child {
+    margin-right: -56px;
+}
+
 .footer-navigation__link {
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 400;
@@ -1200,6 +1267,12 @@ main {
     line-height: 20px;
     text-decoration: none;
     color: #ffffff;
+}
+
+.footer-navigation__link:hover {
+    text-shadow: #000000 0 0 2px;
+
+    transition: 0.3s;
 }
 
 .footer-navigation__social {
@@ -1220,6 +1293,12 @@ main {
 
 .footer-navigation__social-item:last-child {
     padding-right: 3px;
+}
+
+.footer-navigation__social-link:hover {
+    opacity: 0.7;
+
+    transition: 0.3s;
 }
 /* footer-navigation end */
 /* ----- */
